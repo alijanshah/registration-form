@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    box-sizing: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(image.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ali {
+    width: 750px;
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 40px 35px 55px;
+    box-shadow:0 0 10px whitesmoke;
+}
+
+.ali h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ali .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input-box .input-field {
+    position: relative;
+    width: 40%;
+    margin: 13px 0;
+    box-shadow:0 0 10px black;
+}
+.input-box .input-field input{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: transparent;
+    border: 2px solid pink;
+    outline: none;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 15px 15px 15px 40px;
+    box-shadow: 0 0 10px whitesmoke;
+}
+.input-box .input-field input::placeholder{
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+}
+.input-box .input-field i{
+    position: absolute;
+    left: 15px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+.ali label{
+    display: inline-block;
+    font-size: 14.5px;
+    margin: 10px 0 23px;
+}
+.ali label input{
+    accent-color: #fff;
+    margin-right: 5px;
+}
+.ali .btn{
+    width: 100%;
+    height: 45px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(248, 248, 248);
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray {
+    color: grey;
+}
+
+.formcontainer {
+    /* border: 1px solid rgb(22, 22, 22); */
+    width: 40%;
+    height: min-content;
+    margin: 0px auto;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+    /* text-align: center; */
+}
+
+.signup { 
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    padding: 10px;
+    width: 100%;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form .name input {
+    padding: 5px 10px;
+    font-size: 20px;
+    width: 47%;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+form .name input:focus {
+    outline: 1px solid red;
+    border: none;
+}
+
+.email,
+.password {
+    width: 100%;
+}
+
+.email input,
+.password input {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.email input:focus,
+.password input:focus {
+    outline: 1px solid red;
+    border: none;
+}
+
+.dobcontainer {
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.dobcontainer p {
+    margin-bottom: 6px;
+
+}
+
+.dob {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dob input {
+    width: 32%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.dob input:focus {
+    outline: 1px solid red;
+    border: none;
+}
+ 
+.gender {
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.gender div {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    width: 32%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: gray;
+}
+.signup2{
+    text-align: center;
+    color: gray;
+    margin-top: 15px;
+}
+a{
+    text-align: center;
+}
